@@ -23,11 +23,11 @@ public class Grab : MonoBehaviour
 
     private void Update()
     {
-		if (Input.GetButton("mouse 0"))
+		if (Input.GetKey("mouse 0"))
 		{
 				GrabObject();
 		}
-		if (Input.GetButtonUp("mouse 0"))
+		if (Input.GetKeyUp("mouse 0"))
 		{		
 			if (objectGrabbing)
 			{
